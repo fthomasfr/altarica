@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: fr.onair.dsl.safety.altarica
+Bundle-Vendor: OnAir Altarica
+Bundle-Version: 0.7.0.qualifier
+Bundle-SymbolicName: fr.onair.dsl.safety.altarica; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.generator;resolution:=optional,
+ org.apache.commons.logging;resolution:=optional,
+ org.eclipse.emf.codegen.ecore;resolution:=optional,
+ org.eclipse.emf.mwe.utils;resolution:=optional,
+ org.eclipse.emf.mwe2.launch;resolution:=optional,
+ com.ibm.icu;resolution:=optional,
+ org.eclipse.xtext.xtend;resolution:=optional,
+ org.eclipse.xtext.util,
+ org.eclipse.emf.ecore,
+ org.eclipse.emf.common,
+ org.antlr.runtime
+Import-Package: org.apache.log4j
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: fr.onair.dsl.safety.altarica,
+ fr.onair.dsl.safety.altarica.altarica,
+ fr.onair.dsl.safety.altarica.altarica.impl,
+ fr.onair.dsl.safety.altarica.altarica.util,
+ fr.onair.dsl.safety.altarica.parseTreeConstruction,
+ fr.onair.dsl.safety.altarica.parser.antlr,
+ fr.onair.dsl.safety.altarica.parser.antlr.internal,
+ fr.onair.dsl.safety.altarica.services,
+ fr.onair.dsl.safety.altarica.utils,
+ fr.onair.dsl.safety.altarica.validation
