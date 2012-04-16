@@ -1,13 +1,13 @@
 #
-This set of plugins provide an [Eclipse!](http://www.eclipse.org/) editor to edit [Altarica!](http://altarica.labri.fr/forge/) programs.
+This set of plugins provide an [Eclipse](http://www.eclipse.org/) editor to edit [Altarica](http://altarica.labri.fr/forge/) programs.
 
 ## Features
 
-TODO
+
 
 ## Changelog
 
-[0.7.0 Release] 
+[0.7.0 Release] initial commit based on the  Xtext SDK 1.0.2 framework
 
 ## Bug tracker
 
