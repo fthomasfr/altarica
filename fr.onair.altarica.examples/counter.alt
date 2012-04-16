@@ -1,0 +1,12 @@
+node Counter 
+	state 
+		count : [ 0 , 10 ] ; 
+	init 
+		count := 0 ; 
+	event 
+		inc : attr1 ;
+		inc2 : attr2 ;
+	trans 
+		true |- inc -> count := count + 1 ; 
+		true |- inc2 -> count:= count + 2 ;
+edon
