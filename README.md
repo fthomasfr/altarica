@@ -5,6 +5,8 @@ This set of plugins provide an [Eclipse](http://www.eclipse.org/) editor to edit
 + Edit An Altarica model conforms to the [Labri grammar] (http://altarica.labri.fr/forge/projects/altarica/wiki/AltaRicaLanguage).
 + Provide Syntax color and completion
 
+You have an illustration of the editor on my [blog] (http://modeldrivenblog.blogspot.fr/2011/06/altarica-textual-editor-in-eclipse.html).
+
 To get the compilation, you must install the [Arc](http://altarica.labri.fr/forge/projects/arc/wiki) compiler.
 
 
