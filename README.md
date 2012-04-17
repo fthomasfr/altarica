@@ -27,6 +27,8 @@ To get the compilation, you must install the [Arc](http://altarica.labri.fr/forg
 
 Have a bug? Please [create an issue](https://github.com/fthomasfr/altarica/issues).
 
+If you plan to hack on the code and contribute patches, the best way to do it is to create a GitHub fork, and send pull requests.
+
 ## Authors
 
 **Frédéric Thomas**
